@@ -9,7 +9,7 @@ class PemainMUController extends Controller
 {
     public function index(){
         // Mengambil semua data buku
-        $pemain_mu = PemainMU::all()->sortByDesc('id');
+        $pemain_mu = PemainMU::all();
 
         return view('pemain_mu', compact('pemain_mu'));
     }
