@@ -18,4 +18,4 @@ Route::get('/', function (){
     return view('welcome');
 });
 
-Route::get('/buku', [PemainMUController::class, 'index']);
+Route::get('/mu', [PemainMUController::class, 'index']);
